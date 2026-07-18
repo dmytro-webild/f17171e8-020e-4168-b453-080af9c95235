@@ -10,7 +10,7 @@ import KurumsalFotoSection from './HomePage/sections/KurumsalFoto';
 import NedenBizSection from './HomePage/sections/NedenBiz';
 import HizmetlerSection from './HomePage/sections/Hizmetler';
 import UrunlerSection from './HomePage/sections/Urunler';
-import SurecSection from './HomePage/sections/Surec';
+import SüreçSection from './HomePage/sections/Süreç';
 import MetricsSection from './HomePage/sections/Metrics';
 import TestimonialsSection from './HomePage/sections/Testimonials';
 import IletisimSection from './HomePage/sections/Iletisim';
@@ -29,7 +29,7 @@ export default function HomePage(): React.JSX.Element {
 
       <UrunlerSection />
 
-      <SurecSection />
+      <SüreçSection />
 
       <MetricsSection />
 

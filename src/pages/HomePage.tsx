@@ -163,9 +163,9 @@ export default function HomePage() {
         <FooterBasic
             columns={[
               { title: "Hizmetler", items: [{ label: "Çimento Satışı", href: "#" }, { label: "İnşaat Malzemeleri", href: "#" }, { label: "Şantiye Tedariki", href: "#" }] },
-              { title: "İletişim", items: [{ label: "Yalova, Türkiye", href: "#" }, { label: "info@selcukticaret.com", href: "mailto:info@selcukticaret.com" }, { label: "+90 000 000 0000", href: "tel:+90000000000" }]}
+              { title: "İletişim", items: [{ label: "Gazi Osman Paşa, Bursa Yolu, 77100 Yalova Merkez/Yalova", href: "#" }, { label: "selcukinsaatmalzemeleri@gmail.com", href: "mailto:selcukinsaatmalzemeleri@gmail.com" }, { label: "+90 542 744 42 77", href: "tel:+90000000000" }]}
             ]}
-            leftText="© 2024 Selçuk Ticaret Beton & Çimento. Tüm Hakları Saklıdır."
+            leftText="© 2026 Selçuk Ticaret Beton & Çimento. Tüm Hakları Saklıdır."
             rightText="Gizlilik Politikası"
         />
       </div>

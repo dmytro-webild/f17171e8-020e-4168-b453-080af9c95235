@@ -13,8 +13,8 @@ export default function HeroSection(): React.JSX.Element {
                 tag="Güvenilir Tedarikçiniz"
                 title="Güvenilir Demir, Çimento, Tuğla, Kum, Mıcır ve Kireç Tedarikçisi"
                 description="Kaliteli ürün, hızlı teslimat ve yılların tecrübesiyle inşaat projeleriniz için güvenilir çözüm ortağınız."
-                primaryButton={{ text: "Hemen Ara", href: "tel:+90000000000" }}
-                secondaryButton={{ text: "WhatsApp'tan Yaz", href: "https://wa.me/90000000000" }}
+                primaryButton={{ text: "Hemen Ara", href: "tel:+902268143993" }}
+                secondaryButton={{ text: "WhatsApp'tan Yaz", href: "https://wa.me/905427444277" }}
                 items={[{ imageSrc: "http://img.b2bpic.net/free-photo/pallets-with-stacked-gray-paving-slabs-selective-focus-stack-paving-slabs-warehouse-road-repair-finished-tile-sale-space-text_166373-3193.jpg" }, { imageSrc: "http://img.b2bpic.net/free-photo/photo-wall-texture-pattern_58702-14512.jpg" }, { imageSrc: "http://img.b2bpic.net/free-photo/man-using-excavator-digging-day-light_23-2149194783.jpg" }, { imageSrc: "http://img.b2bpic.net/free-photo/construction-work-site_1398-3934.jpg" }, { imageSrc: "http://img.b2bpic.net/free-photo/diagonal-concrete-texture-abstract-gray-pattern-design_84443-55427.jpg" }, { imageSrc: "http://img.b2bpic.net/free-photo/waste-stack-contract-development-background_1142-727.jpg" }]}
                 textAnimation="slide-up"
               />

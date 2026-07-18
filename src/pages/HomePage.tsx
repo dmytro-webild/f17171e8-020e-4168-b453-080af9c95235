@@ -64,10 +64,10 @@ export default function HomePage() {
             title="Sektörün Güvenilir Adı"
             description="Profesyonel ekibimizle tüm inşaat ihtiyaçlarınıza yönelik çözümler sunuyoruz."
             items={[
-              { icon: "Truck", title: "Çimento Satışı", description: "Her türlü çimento ihtiyacınız için hızlı tedarik." },
-              { icon: "Wrench", title: "İnşaat Malzemeleri", description: "Geniş ürün yelpazemizle eksiksiz çözüm." },
-              { icon: "Building2", title: "Şantiye Tedariki", description: "Şantiyenize yerinde ve zamanında teslimat." },
-              { icon: "Package", title: "Toplu Sipariş", description: "Büyük ölçekli projeler için özel fiyat teklifleri." }
+              { icon: Truck, title: "Çimento Satışı", description: "Her türlü çimento ihtiyacınız için hızlı tedarik." },
+              { icon: Wrench, title: "İnşaat Malzemeleri", description: "Geniş ürün yelpazemizle eksiksiz çözüm." },
+              { icon: Building2, title: "Şantiye Tedariki", description: "Şantiyenize yerinde ve zamanında teslimat." },
+              { icon: Package, title: "Toplu Sipariş", description: "Büyük ölçekli projeler için özel fiyat teklifleri." }
             ]}
             imageSrc="http://img.b2bpic.net/free-photo/worker-holding-wood-plank-working-furniture-factory-wood-processing-industry_342744-205.jpg"
             textAnimation="slide-up"

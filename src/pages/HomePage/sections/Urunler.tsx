@@ -14,13 +14,13 @@ export default function UrunlerSection(): React.JSX.Element {
                 title="Geniş Ürün Yelpazesi"
                 description="İnşaatınızın ihtiyacı olan her şey burada."
                 items={[
-                  { title: "İnşaat Demiri", description: "Dayanıklı ve sertifikalı.", imageSrc: "http://img.b2bpic.net/free-photo/triple-x-architecture-design-building_122409-15.jpg" },
-                  { title: "Çimento", description: "Endüstriyel standartlarda.", imageSrc: "http://img.b2bpic.net/free-photo/worker-builds-cinder-block-wall-new-home_661209-381.jpg" },
-                  { title: "Beyaz Çimento", description: "Dekoratif ve sağlam.", imageSrc: "http://img.b2bpic.net/free-photo/flat-lay-clay-smudge_23-2148862878.jpg" },
+                  { title: "İnşaat Demiri", description: "Dayanıklı ve sertifikalı.", imageSrc: "https://storage.googleapis.com/webild/users/user_3FoznR22VUsYjNYraGEuDHkeUVM/uploaded-1784409071485-54aga8sx.jpg" },
+                  { title: "Çimento", description: "Endüstriyel standartlarda.", imageSrc: "https://storage.googleapis.com/webild/users/user_3FoznR22VUsYjNYraGEuDHkeUVM/uploaded-1784409082483-cr0h7fie.jpg" },
+                  { title: "Beyaz Çimento", description: "Dekoratif ve sağlam.", imageSrc: "https://storage.googleapis.com/webild/users/user_3FoznR22VUsYjNYraGEuDHkeUVM/uploaded-1784409091990-adq4398j.jpg" },
                   { title: "Gazbeton", description: "Enerji tasarruflu.", imageSrc: "https://storage.googleapis.com/webild/users/user_3FoznR22VUsYjNYraGEuDHkeUVM/uploaded-1784408726491-7ipe9tpi.webp" },
-                  { title: "Kireç", description: "Harçlarınız için ideal.", imageSrc: "http://img.b2bpic.net/free-photo/unfinished-brick-building-site_23-2147694730.jpg" },
-                  { title: "Tuğla", description: "Yüksek mukavemetli.", imageSrc: "http://img.b2bpic.net/free-photo/photo-wall-texture-pattern_58702-12640.jpg" },
-                  { title: "Kum & Mıcır", description: "Doğal ve kaliteli.", imageSrc: "https://storage.googleapis.com/webild/users/user_3FoznR22VUsYjNYraGEuDHkeUVM/uploaded-1784408713540-5csf7tk1.jpg" }
+                  { title: "Kireç", description: "Harçlarınız için ideal.", imageSrc: "https://storage.googleapis.com/webild/users/user_3FoznR22VUsYjNYraGEuDHkeUVM/uploaded-1784409102935-dgv9lt49.jpg" },
+                  { title: "Tuğla", description: "Yüksek mukavemetli.", imageSrc: "https://storage.googleapis.com/webild/users/user_3FoznR22VUsYjNYraGEuDHkeUVM/uploaded-1784409112528-a3t8r8uy.webp" },
+                  { title: "Kum & Mıcır", description: "Doğal ve kaliteli.", imageSrc: "https://storage.googleapis.com/webild/users/user_3FoznR22VUsYjNYraGEuDHkeUVM/uploaded-1784409129100-qdbr1qm6.jpg" }
                 ]}
                 textAnimation="slide-up"
               />

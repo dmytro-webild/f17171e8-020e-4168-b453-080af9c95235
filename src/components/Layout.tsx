@@ -52,48 +52,7 @@ export default function Layout() {
       <main className="flex-grow">
         <Outlet />
       </main>
-      <SectionErrorBoundary name="footer">
-        <FooterBasic
-      columns={[
-        {
-          title: "Hizmetler",
-          items: [
-            {
-              label: "Çimento Satışı",
-              href: "#",
-            },
-            {
-              label: "İnşaat Malzemeleri",
-              href: "#",
-            },
-            {
-              label: "Şantiye Tedariki",
-              href: "#",
-            },
-          ],
-        },
-        {
-          title: "İletişim",
-          items: [
-            {
-              label: "Yalova, Türkiye",
-              href: "#",
-            },
-            {
-              label: "info@selcukticaret.com",
-              href: "mailto:info@selcukticaret.com",
-            },
-            {
-              label: "+90 000 000 0000",
-              href: "tel:+90000000000",
-            },
-          ],
-        },
-      ]}
-      leftText="© 2024 Selçuk Ticaret Beton & Çimento. Tüm Hakları Saklıdır."
-      rightText="Gizlilik Politikası"
-    />
-      </SectionErrorBoundary>
+
     </StyleProvider>
   );
 }

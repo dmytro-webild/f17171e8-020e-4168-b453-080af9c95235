@@ -12,8 +12,8 @@ export default function IletisimSection(): React.JSX.Element {
               <ContactCta
                 tag="Bize Ulaşın"
                 text="İhtiyaçlarınız için profesyonel çözümler sunuyoruz. Hemen iletişime geçin."
-                primaryButton={{ text: "WhatsApp'tan Yaz", href: "https://wa.me/90000000000" }}
-                secondaryButton={{ text: "Hemen Ara", href: "tel:+90000000000" }}
+                primaryButton={{ text: "WhatsApp'tan Yaz", href: "https://wa.me/905427444277" }}
+                secondaryButton={{ text: "Hemen Ara", href: "tel:+902268143993" }}
                 textAnimation="slide-up"
               />
             </SectionErrorBoundary>

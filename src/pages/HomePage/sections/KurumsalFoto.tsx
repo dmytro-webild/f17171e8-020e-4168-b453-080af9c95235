@@ -14,7 +14,7 @@ export default function KurumsalFotoSection(): React.JSX.Element {
                 title="Yılların Tecrübesiyle Güvenilir Hizmet"
                 description="Selçuk Ticaret olarak Yalova ve çevresinde kaliteli ürün, güvenilir hizmet ve zamanında teslimat anlayışıyla müşterilerimize hizmet veriyoruz."
                 items={[]}
-                imageSrc="http://img.b2bpic.net/free-photo/industrial-park-factory-building-warehouse_1417-1929.jpg"
+                imageSrc="https://storage.googleapis.com/webild/users/user_3FoznR22VUsYjNYraGEuDHkeUVM/uploaded-1784406467541-z1vh6uhx.jpg"
                 textAnimation="slide-up"
               />
             </SectionErrorBoundary>

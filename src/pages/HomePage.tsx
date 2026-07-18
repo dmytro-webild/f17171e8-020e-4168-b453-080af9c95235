@@ -5,6 +5,7 @@ import FeaturesRevealCards from '@/components/sections/features/FeaturesRevealCa
 import HeroBillboardCarousel from '@/components/sections/hero/HeroBillboardCarousel';
 import MetricsFeatureCards from '@/components/sections/metrics/MetricsFeatureCards';
 import TestimonialMarqueeCards from '@/components/sections/testimonial/TestimonialMarqueeCards';
+import FooterBasic from '@/components/sections/footer/FooterBasic';
 import { Truck, Wrench, Building2, Package } from "lucide-react";
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 
@@ -19,14 +20,7 @@ export default function HomePage() {
             description="Kaliteli ürün, hızlı teslimat ve yılların tecrübesiyle inşaat projeleriniz için güvenilir çözüm ortağınız."
             primaryButton={{ text: "Hemen Ara", href: "tel:+90000000000" }}
             secondaryButton={{ text: "WhatsApp'tan Yaz", href: "https://wa.me/90000000000" }}
-            items={[
-              { imageSrc: "http://img.b2bpic.net/free-photo/pallets-with-stacked-gray-paving-slabs-selective-focus-stack-paving-slabs-warehouse-road-repair-finished-tile-sale-space-text_166373-3193.jpg" },
-              { imageSrc: "http://img.b2bpic.net/free-photo/photo-wall-texture-pattern_58702-14512.jpg" },
-              { imageSrc: "http://img.b2bpic.net/free-photo/man-using-excavator-digging-day-light_23-2149194783.jpg" },
-              { imageSrc: "http://img.b2bpic.net/free-photo/construction-work-site_1398-3934.jpg" },
-              { imageSrc: "http://img.b2bpic.net/free-photo/diagonal-concrete-texture-abstract-gray-pattern-design_84443-55427.jpg" },
-              { imageSrc: "http://img.b2bpic.net/free-photo/waste-stack-contract-development-background_1142-727.jpg" }
-            ]}
+            items={[{ imageSrc: "http://img.b2bpic.net/free-photo/pallets-with-stacked-gray-paving-slabs-selective-focus-stack-paving-slabs-warehouse-road-repair-finished-tile-sale-space-text_166373-3193.jpg" }, { imageSrc: "http://img.b2bpic.net/free-photo/photo-wall-texture-pattern_58702-14512.jpg" }, { imageSrc: "http://img.b2bpic.net/free-photo/man-using-excavator-digging-day-light_23-2149194783.jpg" }, { imageSrc: "http://img.b2bpic.net/free-photo/construction-work-site_1398-3934.jpg" }, { imageSrc: "http://img.b2bpic.net/free-photo/diagonal-concrete-texture-abstract-gray-pattern-design_84443-55427.jpg" }, { imageSrc: "http://img.b2bpic.net/free-photo/waste-stack-contract-development-background_1142-727.jpg" }]}
             textAnimation="slide-up"
           />
         </SectionErrorBoundary>
@@ -163,6 +157,17 @@ export default function HomePage() {
             textAnimation="slide-up"
           />
         </SectionErrorBoundary>
+      </div>
+
+      <div id="footer" data-section="footer">
+        <FooterBasic
+            columns={[
+              { title: "Hizmetler", items: [{ label: "Çimento Satışı", href: "#" }, { label: "İnşaat Malzemeleri", href: "#" }, { label: "Şantiye Tedariki", href: "#" }] },
+              { title: "İletişim", items: [{ label: "Yalova, Türkiye", href: "#" }, { label: "info@selcukticaret.com", href: "mailto:info@selcukticaret.com" }, { label: "+90 000 000 0000", href: "tel:+90000000000" }]}
+            ]}
+            leftText="© 2024 Selçuk Ticaret Beton & Çimento. Tüm Hakları Saklıdır."
+            rightText="Gizlilik Politikası"
+        />
       </div>
     </>
   );
